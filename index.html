@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="style.css" rel="stylesheet">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="section">
+            <h1 >BASIC JAVASCRIPT CALCULATOR</h1>
+            <div class="content">
+                <div class="rows">
+                    <input type="text" alt="text">
+                </div>
+                <div class="rows">
+                    <button type="button" onclick="addValue('%')"> % </button>
+                    <button type="button" onclick="addValue('/')"> /</button>
+                    <button type="button" onclick="clearValue()"> C </button>
+                    <button type="button" onclick="deleteElement()"> Del</button>
+                </div>
+                <div class="rows">
+                    <button type="button" onclick="addValue('7')">7</button>
+                    <button type="button" onclick="addValue('8')">8</button>
+                    <button type="button" onclick="addValue('9')">9</button>
+                    <button type="button" onclick="addValue('*')">*</button>
+                </div>
+                <div class="rows">
+                    <button type="button" onclick="addValue('4')">4</button>
+                    <button type="button" onclick="addValue('5')">5</button>
+                    <button type="button" onclick="addValue('6')">6</button>
+                    <button type="button" onclick="addValue('-')">-</button>
+                </div>
+                <div class="rows">
+                    <button type="button" onclick="addValue('1')">1</button>
+                    <button type="button" onclick="addValue('2')">2</button>
+                    <button type="button" onclick="addValue('3')">3</button>
+                    <button type="button" onclick="addValue('+')">+</button>
+                </div>
+                <div class="rows">
+                    <button type="button" onclick="addValue('00')">00</button>
+                    <button type="button" onclick="addValue('0')">0</button>
+                    <button type="button" onclick="addValue('.')">.</button>
+                    <button type="button" onclick="evaluateValue('=')" >=</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
